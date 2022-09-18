@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif, Helvetica;
+}
+
+.navbar {
+    width: 100%;
+    position: absolute;
+    padding: 20px 40px;
+}
+
+.navbar .navbar-brand {
+    width: 80px;
+}
+
+.navbar .nav-link {
+    color: #00ffff;
+    font-size: 24px;
+    text-transform: uppercase; 
+}
+
+.navbar .nav-link:hover {
+    color: #a646c0;
+    background: #2AACF0;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.navbar-toggler {
+    background: #2AACF0;
+    color: transparent;
+}
+
+.navbar-toggler-icon {
+    filter: invert(100%);
+}
+
+.banner-image {
+    height: 100vh;
+    background-repeat: none;
+    background-size: cover; 
+    background-position: center;
+}
+
+h1 {
+    font-size: 6rem;
+    color: #00ffff;
+    text-transform: uppercase;
+    margin-top: 150px;
+}
+
+.banner-content p{
+    font-size: 3rem;
+    color: #00ffff;
+}
+
+.banner-content a {
+        font-size: 3rem;
+        color: #00ffff;
+        padding-left: 10px;
+        cursor: pointer;
+}   
+
+h2 {
+    font-size: 3.5rem;
+    padding: 60px 10px;
+    color: #00ffff;
+    text-shadow: 0 0 10px rgba(149, 86, 199,1),
+                 0 0 20px rgba(149, 86, 199,1),
+                 0 0 40px rgba(149, 86, 199,1),
+                 0 0 80px rgba(149, 86, 199,1),
+                 0 0 160px rgba(149, 86, 199,1);
+}
+
+.about-me p {
+    font-size: 1.50rem;
+    text-indent: 50px;
+    padding: 0 30px 70px 30px;
+    color: white;
+}
+
+.container {
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.projects-container {
+    padding: 20px 30px 
+}
+
+.card-img-top {
+    width: 100%;
+    object-fit: cover;
+}
+
+a:hover {
+    color: #00ffff;
+}
+
+.card-body .btn {
+    background-image: linear-gradient(270deg, hsl(273, 50%, 56%), hsl(201, 87%, 55%));
+    color: #00ffff;
+}
+
+.card-body .btn:hover {
+    background-image: linear-gradient(270deg, hsl(201, 87%, 55%), hsl(273, 50%, 56%));
+    color: #00ffff;
+}
+
+.card-git {
+    color: #9556C7;
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    }
+
+.carousel-inner {
+    width:900px; 
+    height: 380px; 
+}
+
+h3 {
+    font-size: 1.25rem;
+    padding: 30px 0;
+}
+
+.connect p {
+    color: #00ffff;
+    font-style: italic;
+    font-size: 1.5rem;
+    padding: 20px 15px; 
+}
+
+.social-links a {
+        color: #00ffff;
+        font-size: 30px;
+        display: inline-block;
+        margin-right: 10px;
+        margin-bottom: 20px; 
+}
+
+footer {
+    color: #2AACF0;
+    cursor: pointer;
+    height: 20px;
+}
+
+footer a {
+    color: #2AACF0;
+}
+
+footer a:hover {
+    color: #9556C7;
+}
+
+.port-link {
+    padding: 10px;
+}
+
+
+@media only screen and (max-width:1250px) {
+
+    .navbar {
+        padding: 20px 60px;
+    }
+
+    .navbar .navbar-brand {
+        width: 60px;
+    }
+
+    .navbar .nav-link {
+        font-size: 18px;
+    }
+
+    .card-body .btn {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+
+    .navbar-collapse {
+        text-align: center;
+        padding: 50px;
+        border-radius: 5px;
+        background-image: linear-gradient(270deg, hsl(273, 50%, 56%), hsl(201, 87%, 55%));
+    }
+
+    h1 {
+        font-size: 4.75rem;
+    }
+}
+
+@media only screen and (max-width:850px) {
+
+    .navbar {
+        padding: 20px 30px;
+    }
+
+    h1 {
+        font-size: 4.25rem;
+    }
+
+    .card-git {
+    font-size: 22px;
+    padding-top: 3px;
+    }
+
+    .carousel-inner {
+        width:800px; 
+        height: 300px; 
+        width: 100%;
+    }
+}
+
+ @media only screen and (max-width:650px) {
+
+    .navbar {
+        padding: 20px 25px;
+    }
+
+    h1 {
+        font-size: 3.25rem;
+    }
+
+    .banner-content p{
+        font-size: 2.5rem;
+    }
+    
+    .banner-content a {
+            font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .container td {
+        font-size: 18px;
+    }
+
+    .carousel-inner {
+        width:500px; 
+        height: 280px; 
+        width: 100%;
+        padding-top: 45px;
+    }
+}
+
+@media only screen and (max-width:450px) {
+
+    h1 {
+        font-size: 3.5rem;
+        padding: 20px;
+    }
+
+    .about-me p {
+        font-size: 1rem;
+    }
+
+    .container td {
+        font-size: 15px;
+    }
+
+    .banner-content p{
+        font-size: 2rem;
+    }
+    
+    .banner-content a {
+            font-size: 2rem;
+    }
+}
