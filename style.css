@@ -77,10 +77,15 @@ h2 {
                  0 0 160px rgba(149, 86, 199,1);
 }
 
+#about-me {
+    padding-bottom: 60px;
+    background: #212529;
+}
+
 .about-me p {
     font-size: 1.50rem;
     text-indent: 50px;
-    padding: 0 30px 70px 30px;
+    padding: 0 30px;
     color: white;
 }
 
