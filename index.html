@@ -55,9 +55,11 @@
             <div class="row">
               <div class="row-cols-md-10">
                 <h1>Yanelin Ramos</h1>
-                  <p>Software Developer</p>
+                <div class="banner-container">
+                  <p class="typed">Software Developer</p>
                   <a href="https://www.linkedin.com/in/yanelinramos/" target="blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
                   <a href="https://github.com/ramosy1/portfolio" target="blank" class="git-portfolio"><i class="bi bi-github"></i></a>
+                </div>
               </div>
             </div> 
           </div>
@@ -67,54 +69,53 @@
     <!-- Section About Me -->
 
     <section id="about-me">
-      <div class="about-me bg-dark">
-        <h2 class="text-uppercase text-center" >About Me</h2>
-        <p class="content-text-center"> Hi, I'm Yanelin. I'm a Full Stack Web Developer with over 460 hours of software development experience and demonstrated success in building frontend and backend applications. I have over five years of work experience within the digital marketing, social media, and health care industries where I gathered skills such as; problem solving, attention to detail, and teamwork to name a few.
+      <div class="about-me">
+        <h2 class="text-uppercase text-center bg-dark">About Me</h2>
+        <p> Hi, I'm Yanelin. I'm a Full Stack Web Developer with over 460 hours of software development experience and demonstrated success in building frontend and backend applications. I have over five years of work experience within the digital marketing, social media, and health care industries where I gathered skills such as; problem solving, attention to detail, and teamwork to name a few.
 
-        <p>I'm also an individual who's curious by nature and fueled by the love of learning. But in my downtime, I enjoy <em>(and can always appreciate)</em> watching a good movie, going to a live concert or theater performance, and traveling.</p> 
+        <p>I'm also an individual who's curious by nature and fueled by the love of learning. But in my downtime, I enjoy <em>(and can always appreciate)</em> watching a good movie, going to a live concert or theater performance, and traveling.</p>
     </section>
 
   <!-- Section Technical Skills -->
 
-    <section id="technical-skills">
-      <style> .container {background-image: linear-gradient(270deg, hsl(273, 50%, 56%), hsl(201, 87%, 55%));}</style>
-        <h2 class="text-uppercase text-center">Technical Skills</h2>
-    </section> 
+    <section id="tech-skills">
+      <style> .Tech-Skills-container {background-image: linear-gradient(270deg, rgb(253, 220, 217), rgb(215, 162, 161));}</style>
+      <h2 class="text-uppercase text-center">Technical Skills</h2>
+      <div class="Tech-Skills-container bg-light table-border">
+        <div class="table-responsive  table-responsive-{sm | md | lg | xl | xxl} text-uppercase">
+          <table class="table  ">
+            <tbody>
+              <tr>
+                <td scope="col" width="30%" >Java</td>
+                <td scope="col" width="30%" >Spring Data JPA</td>
+                <td scope="col" width="30%" >Unit Testing (JUnit, Mockito)</td>
+              </tr>
 
-    <section id="Tech-Skills bg-light">
-      <div class="container">
-        <table class="table table-border text-uppercase overflow-y: hidden">
-          <tbody>
-            <tr>
-              <td scope="col" width="30%" >Java</td>
-              <td scope="col" width="30%" >Spring Data JPA</td>
-              <td scope="col" width="30%" >Unit Testing (JUnit, Mockito)</td>
-            </tr>
+              <tr>
+                <td>JavaScript</td>
+                <td>Spring Security (JWT)</td>
+                <td>SOLID OOP Principles</td>
+              </tr>
 
-            <tr>
-              <td>JavaScript</td>
-              <td>Spring Security (JWT)</td>
-              <td>SOLID OOP Principles</td>
-            </tr>
+              <tr>
+                <td>HTML</td>
+                <td>Bootstrap</td>
+                <td>Dependencies Injection</td>
+              </tr>
 
-            <tr>
-              <td>HTML</td>
-              <td>Bootstrap</td>
-              <td>Dependencies Injection</td>
-            </tr>
+              <tr>
+                <td>CSS</td>
+                <td>REST API’s</td>
+                <td>Git</td>
+              </tr>
 
-            <tr>
-              <td>CSS</td>
-              <td>REST API’sr</td>
-              <td>Git</td>
-            </tr>
-
-            <tr>
-              <td>Spring Boot</td>
-              <td>SQL</td>
-            </tr>
-          </tbody>
-        </table>
+              <tr>
+                <td>Spring Boot</td>
+                <td>MySQL</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </section>
 
@@ -122,73 +123,58 @@
     
     <section id="projects">
       <div class="projects">
-          <h2 class="text-uppercase text-center bg-dark">Projects</h2>
+        <h2 class="text-uppercase text-center bg-dark">Projects</h2>
+        <div class="projects-container">
+          <div class="row gy-3">
+            <div class="col-md-4">
+              <div class="card h-100 ">
+                <img src="./images/random quote generator mockup.png" class="card-img-top" alt="Random Quote Generator">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title text-uppercase">Daily Quotes To Inspire The Soul</h5>
+                  <p class="card-text text-uppercase">HTML5 | CSS3 | JavaScript</p>
+                  <p>Ready to light up your soul? If so, this random quote generator is the perfect "pick me up" for anyone going through a rainy day.
+                    <br><b><u><em>My goal</em></u></b> here was to build a webpage with an ambiance inclusive of the good intention behind it, and the video background was just the perfect fit. But don't just take my word for it, see for yourself!</p>
+                    <div class="d-grid d-flex justify-content-start gap-2 d-md-block mt-auto">
+                    <a href="https://ramosy1.github.io/random_quote_generator/" target="blank" class="btn text-uppercase">View project</a>
+                  <a href="https://github.com/ramosy1/random_quote_generator" target="blank" class="card-git"><i class="bi bi-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="col-md-4">
+              <div class="card h-100 ">
+                <img src="./images/FHYT mockup.png" class="card-img-top" alt="FHYT Athletics">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title text-uppercase">FHYT Athletics</h5>
+                  <p class="card-text text-uppercase">HTML5 | CSS3 | JavaScript | Java | Springboot | MySQL</p>
+                  <p>FHYT Athletics is an e-commerce website in the fitness industry built by the collaborative efforts of a three member team. <br><b><u><em>Our goal</em></u></b> was to create a functional website where customers could both login, and purchase company products with ease. In addition to, providing employees an easy process for creating, reading, updating and deleting product entries in the database. </p> 
+                  <div class="d-grid d-flex justify-content-start gap-2 d-md-block mt-auto">
+                  <a href="https://github.com/TZ-codes/Final_Project" target="blank" class="btn text-uppercase" >Frontend</a>
+                  <a href="https://github.com/TZ-codes/Project-Back-End" target="blank" class="btn text-uppercase" >Backend</a>
+                  <!-- <a href="#" class="btn text-uppercase" >Demo Coming Soon</a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="./images/portfolio website mockups.png" class="card-img-top" alt="Portfofio Website">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title text-uppercase">Portfolio Website</h5>
+                <p class="card-text text-uppercase">HTML5 | CSS3 | Bootstrap5</p>
+                <p>I've built this responsive portfolio website to showcase my work and skills as a software developer. As in life, I am expecting my portfolio to transform and grow with every new programming experience and tech opportunity I come across starting today and into the near future. Stay tuned!</p> 
+                <div class="d-grid d-flex justify-content-start gap-2 d-md-block mt-auto">
+                <a href="#" target="blank" class="btn text-uppercase">View project</a>
+                <a href="https://github.com/ramosy1/portfolio" target="blank" class="card-git"><i class="bi bi-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>    
+       </div>
+      </div>
       </div>
     </section>
 
-    <div class="projects-container">
-      <div class="row g-4 ">
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="card h-100">
-            <img src="./images/pupsome cookies and grooming mockup.png" class="card-img-top" alt="Pupsome Cookies and Grooming Landing Page">
-            <div class="card-body d-flex flex-column">
-              <h5 class="card-title text-uppercase">Pupsome Cookies and Grooming</h5>
-              <p class="card-text text-uppercase">HTML5 | CSS3</p>
-              <p>Pupsome Cookies and Grooming was created as a fictitious pet grooming business where dog moms and dads feel safe in knowing their pupsome family member gets the best service. And of course, no pup ever leaves the grounds without a cookie treat.
-                <br><b><u><em>The goal</em></u></b> for this project was to build a responsive landing page highlighting the business' services, contact info, and social channels.</p>
-                <div class="d-grid d-flex justify-content-start gap-2 d-md-block mt-auto">
-                <a href="https://ramosy1.github.io/Landing_Page/" target="blank" class="btn text-uppercase">View project</a>
-              <a href="https://github.com/ramosy1/Landing_Page"target="blank" class="card-git"><i class="bi bi-github"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <div class="card h-100 ">
-          <img src="./images/random quote generator mockup.png" class="card-img-top" alt="Random Quote Generator">
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title text-uppercase">Daily Quotes To Inspire The Soul</h5>
-            <p class="card-text text-uppercase">HTML5 | CSS3 | JavaScript</p>
-            <p>Ready to light up your soul? If so, this random quote generator is the perfect "pick me up" for anyone going through a rainy day.
-              <br><b><u><em>My goal</em></u></b> here was to build a webpage with an ambiance inclusive of the good intention behind it, and the video background was just the perfect fit. But don't just take my word for it, see for yourself!</p>
-              <div class="d-grid d-flex justify-content-start gap-2 d-md-block mt-auto">
-              <a href="https://ramosy1.github.io/random_quote_generator/" target="blank" class="btn text-uppercase">View project</a>
-            <a href="https://github.com/ramosy1/random_quote_generator" target="blank" class="card-git"><i class="bi bi-github"></i></a>
-          </div>
-        </div>
-      </div>
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <div class="card h-100 ">
-          <img src="./images/FHYT mockup.png" class="card-img-top" alt="FHYT Athletics">
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title text-uppercase">FHYT Athletics</h5>
-            <p class="card-text text-uppercase">HTML5 | CSS3 | JavaScript | Java | Springboot | MySQL</p>
-            <p>FHYT Athletics is an e-commerce website in the fitness industry built by the collaborative efforts of a three member team. <br><b><u><em>Our goal</em></u></b> was to create a functional website where customers could both login, and purchase company products with ease. In addition to, providing employees an easy process for creating, reading, updating and deleting product entries in the database. </p> 
-            <div class="d-grid d-flex justify-content-start gap-2 d-md-block mt-auto">
-            <a href="https://github.com/TZ-codes/Final_Project" class="btn text-uppercase" >Frontend</a>
-            <a href="https://github.com/TZ-codes/Project-Back-End" class="btn text-uppercase" >Backend</a>
-            <!-- <a href="#" class="btn text-uppercase" >Demo Coming Soon</a> -->
-          </div>
-        </div>
-      </div>
-    </div>
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <div class="card h-100">
-          <img src="./images/portfolio website mockups.png" class="card-img-top" alt="Portfofio Website">
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title text-uppercase">Portfolio Website</h5>
-            <p class="card-text text-uppercase">HTML5 | CSS3 | Bootstrap5</p>
-            <p>And then there's me. I've built this responsive portfolio website to showcase my work and skills as a software developer. As in life, I am expecting my portfolio to transform and grow with every new programming experience and tech opportunity I come across starting today and into the near future. Stay tuned!</p> 
-            <div class="d-grid d-flex justify-content-start gap-2 d-md-block mt-auto">
-            <a href="#" target="blank" class="btn text-uppercase">View project</a>
-            <a href="https://github.com/ramosy1/portfolio" target="blank" class="card-git"><i class="bi bi-github"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-  </div>
 
     <section class="other-projects">
       <h3 class="text-center ">Feel free to view ongoing projects at <a href="https://github.com/ramosy1">github</a> </h3>
@@ -210,7 +196,7 @@
     </div>
     <div class="carousel-inner container-fluid">
       <div class="carousel-item active" data-bs-interval="10000">
-        <img src="./images/Web 1 Testimonials.jpg" class="d-block w-100" alt="...">
+        <img src="./images/Web 1 Testimonials.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
         </div>
       </div>
@@ -235,19 +221,18 @@
     <section id="connect">
       <div class="connect text-center">
         <h2 class="text-uppercase text-center bg-dark">Connect With Me</h2>
-          <style>.connect {background-image: url('./images/background\ image.png');}</style>
           <p class="text-center">Have a resume inquiry or looking to chat? Connect with me today!</p>
             <div class="social-links">
               <a href="https://www.linkedin.com/in/yanelinramos/" target="blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
               <a href="mailto:theyanelinramos@gmail.com" target="blank" class="email"><i class="bi bi-envelope-fill"></i></a>
-              <a href="https://github.com/ramosy1" target="blank" class="git-portfolio"><i class="bi bi-github"></i></a>
+              <a href="https://github.com/ramosy1" target="blank" class="git-portfolio"><i class="bi bi-github"></i></a>  
             </div>
       </div>
     </section>
 
     <!-- Section Footer -->
 
-    <footer class="footer bg-dark">
+    <footer class="footer">
       <p class="port-link text-center bg-dark">&copy; 2022 | <a href="https://ramosy1.github.io/portfolio/">Yanelin Ramos</a></p>
     </footer>
   
