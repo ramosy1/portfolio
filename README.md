@@ -3,7 +3,7 @@ Welcome to my digital portfolio. My name is Yanelin and I'm a fullstack software
 
 **Link to project:** <a href="https://ramosy1.github.io/portfolio/">Portfolio Website</a>
 
-<p align="center"><img src="./gifs/DevPortfolio.gif" alt="portfolio website gif" title="Web Developer Portfolio Website"></p>
+<p align="center"><img src="./gifs/DevPortfolio.gif" alt="portfolio website gif" title="Web Developer Portfolio Website" width="70%" height="70%"></p>
 
 ## How It's Made ##
 This website is built using HTML and CSS, incorporating the Bootstrap framework for styling and layout. It features a pre-header section that displays contact information and social media links, enabling visitors to connect with me easily. Additionally, it includes a navigation bar that facilitates smooth scrolling to different sections of the website, including Home, About Me, Tech Skills, Projects, Testimonials, and Hire Me sections.
